@@ -1,0 +1,186 @@
+.top-container {
+    background-color: rgb(206, 235, 225);
+    height: 500px;
+}
+
+.middle-container {
+    background-color: white;
+    position: relative;
+    /* top: 500px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom-container {
+    /* background-color: #e3f1ef; */
+    background-color: #3abdb2;
+    position: relative;
+    /* top: 500px; */
+    line-height: 2;
+    padding: 20px;
+}
+
+body {
+    background-color: green;
+    color: #35413e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #4ea8a8;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    font-weight: normal;
+}
+
+hr {
+    width: 1%;
+    margin-top: 50px;
+    border: none;
+    border-top: dotted;
+    color: rgb(167, 166, 166);
+    border-width: 5px;
+    padding: 25px;
+}
+
+.heading {
+    font-size: 4rem;
+    /* 100% == 16px == 1em   use % or em for dynamic size*/
+    /* but for % and en=m it also applies the parent setting se we can use 'rem' or ripped em */
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    margin-top: 0;
+}
+
+.subheading {
+    position: absolute;
+    top: 200px;
+    left: 630px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.top_cloud {
+    padding: 10px;
+    position: absolute;
+    right: 300px;
+    width: 300px;
+    height: 200px;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 350px;
+    height: 200px;
+}
+
+.mountain {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.profile_pic {
+    width: 190px;
+    height: 190px;
+}
+
+.hello {
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.tech {
+    width: 190px;
+    height: 190px;
+    float: left;
+    margin-right: 20px;
+}
+
+.book {
+    width: 190px;
+    height: 190px;
+    float: right;
+    margin-left: 20px;
+}
+
+.contact {
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+}
+
+.contact-me {
+    line-height: 2;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    line-height: 2;
+}
+
+.contact_Content {
+    margin: 50px auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #1199e1);
+    background-image: -moz-linear-gradient(top, #11cdd4, #1199e1);
+    background-image: -ms-linear-gradient(top, #11cdd4, #1199e1);
+    background-image: -o-linear-gradient(top, #11cdd4, #1199e1);
+    background-image: linear-gradient(to bottom, #11cdd4, #1199e1);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    margin: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    margin: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: azure;
+}
+
+.copyright:hover {
+    color: bisque;
+}
