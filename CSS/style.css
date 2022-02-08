@@ -1,0 +1,90 @@
+/* This is External CSS */
+
+
+/* Syntax */
+
+
+/* Who{What:how;} */
+
+
+/* ////////////////////////////////////// TAG SELECTOR/////////////////////////// */
+
+body {
+    background-color: #F5EEDC;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-color: #DD4A48;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1:hover {
+    /* here hover is a pseudo class*/
+    /* hover karu to ye dekhe */
+    background-color: chartreuse;
+    color: #6867AC;
+}
+
+h3 {
+    color: #A267AC;
+}
+
+
+/* //////////////////////////////////  CLASS SELECTOR /////////////////////////////// */
+
+
+/* above let i have to color diff h3 to diff color we can specify there class name.. */
+
+
+/* ..in there tag and use them as a selector for css */
+
+
+/* Syntax==   .{class name} */
+
+.Education {
+    color: slategray;
+}
+
+.Schooling {
+    color: teal;
+}
+
+.Skills {
+    color: yellow;
+}
+
+.Courses {
+    color: aqua;
+}
+
+
+/* ////////////////////////////////////// ID SELECTOR/////////////////////////// */
+
+
+/* have some similarities with class example they are more specific than tag */
+
+
+/* we write id selector same as class using # in place of .*/
+
+
+/* Diffrences */
+
+
+/* ID of a particular name should have a single instance */
+
+
+/* whereas  multiple class can have a same name */
+
+
+/* You can give multiple class to the same tag whereas only one ID to a perticular tag */
+
+
+/* You can use class to style a group whereas Id to styel single element on webpage */
+
+.name {
+    background-color: white;
+    color: blueviolet;
+}
