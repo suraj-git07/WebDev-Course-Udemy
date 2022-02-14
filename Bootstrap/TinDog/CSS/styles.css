@@ -1,0 +1,165 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    size: 2.5rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrate-Black, sans-serif';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrate-Bold, sans-serif';
+}
+
+#title {
+    background-color: #ff4c58;
+    color: white;
+    height: 600px;
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    right: 70px;
+}
+
+.nav-item {
+    padding: 0 18px;
+    position: relative;
+    z-index: 5;
+}
+
+.title-image {
+    width: 45%;
+    transform: rotate(25deg);
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrate-Light';
+}
+
+.container-fluid {
+    padding-top: 3%;
+}
+
+.downlode-button {
+    margin: 5% 5% 0 0%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.icon {
+    font-size: 300%;
+    padding-bottom: 10px;
+    color: #ef8172;
+}
+
+.icon:hover {
+    font-size: 300%;
+    padding-bottom: 10px;
+    color: #ff4c58;
+}
+
+.feature {
+    text-align: center;
+    padding: 5%
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.price-btn {
+    padding: 10px 50px 10px 40px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c58;
+    color: white;
+    padding: 7% 15%;
+    margin: 0 0 50px 0;
+}
+
+#footer {
+    text-align: center;
+    color: grey;
+}
+
+.foot-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.foot-icon {
+    padding: 0 8px 0;
+    color: rgb(31, 29, 29);
+}
+
+
+/* Media Query */
+
+
+/*   @medaia (type) (Feature) */
+
+@media (max-width: 1118px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding: 50px 0 0;
+    }
+    #title {
+        text-align: center;
+    }
+}
