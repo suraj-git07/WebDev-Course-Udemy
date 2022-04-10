@@ -112,7 +112,7 @@ better memory management using let
 // console.log(mydate);
 
 // I understand the difference in behavior. Date() returns a String representing the current date, 
-// and new Date() returns an instance of the Date object whose methods I can call.
+// and new Date() returns an instance of the Date object whose methods I can call. since Date is a constructor func so we have to use 'new' to make its instance
 
 
 
@@ -226,3 +226,26 @@ also access ele using query selector
 // ===================================================================== ECMAscript
 
 // ye bas ek strandard hai jisse js ko update kara jata hai
+
+
+// ====================================================================== this
+
+//if a func is a method of a an obj then this will refer to the object
+// if a func is a regular func then 'this' will refer to the global obj (window/global)
+
+
+// const video={
+//   title:'a',
+//   play(){
+//     console.log(this)   //log video obj
+//   }
+// };
+
+
+// function hello(){
+//   console.log(this);  //log window
+// }
+
+
+// if you call a func using new keyword(constructor func) it will refrence to a {} obj of that constructor
+
